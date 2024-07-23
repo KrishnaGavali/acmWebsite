@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainDiv {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.titleDiv{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.teamPhoto {
+  width: 100%;
+  height: 600px;
+  border-radius: 50px;
+}
+
+#subDiv1 {
+  width: 25%;
+  background-color: #1199d4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.teamsSideBar ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.teamsSideBar ul li {
+  list-style-type: none;
+  width: 100%;
+}
+
+.teamsBarTitle {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  left: 5px;
+}
+
+.teamBox {
+  width: 110%;
+  height: 75px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 75px;
+  margin: 25px auto;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px white;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.teamBox:hover {
+  background-color: #49b1e4;
+  color: white;
+  scale: 1.1;
+}
+
+#subDiv2 {
+  flex: 1;
+  background-color: white;
+  color: black;
+  padding: 50px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.teamsDiv {
+  background-color: #49b1e4;
+  color: white;
+  width: 75%;
+  padding: 50px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px #1199d4;
+}
+
+.teamMember{
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all;
+  transition-duration:300ms;
+}
+
+.teamMember:hover{
+    scale: 1.1;
+    background-color: white;
+    color: #1199d4;
+    box-shadow: 1px 1px 20px 1px #1199d4;
+}
+
+
+.teamTitle {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+}
+
+.teamsList {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
